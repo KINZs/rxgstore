@@ -1,0 +1,3 @@
+<p>Using this item will put a Negev in your hands or drop it on the floor if your hands are full.</p>
+<img src="itemdesc/negev.jpg"><br>
+<i>"I thought the negev was banned."</i>

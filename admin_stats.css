@@ -1,0 +1,8 @@
+
+table.stats {
+	border-spacing: 4px;
+}
+table.stats td {
+	background-color: #FBBD4B;
+	padding: 0px 4px;
+}

@@ -1,0 +1,27 @@
+
+.receiptlist {
+	font-size: 11px;
+}
+.receiptlist tr.receiptentry  { 
+	background-color: #ccc;
+}
+.receiptlist tr.receiptentry.selected, .receiptlist tr.receiptentry.selected:hover  { 
+	background-color: #F5A65E;
+}
+
+.receiptlist tr.receiptentry.loading, .receiptlist tr.receiptentry.loading:hover  { 
+	background-color: #A31533;
+	background: url('ajax-loader.gif') repeat center;
+	background-size:100% 100%;
+}
+.receiptlist tr.receiptentry:hover { 
+	background-color: #A6F26E;
+}
+.receiptlist td { 
+	padding: 2px;
+}
+
+button {
+	font-family:inherit;
+	font-weight:inherit;
+}
