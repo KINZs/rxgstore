@@ -1,0 +1,3 @@
+<p>These volatile hazards explode when damaged.</p>
+<p>Using this item will place an exploding pumpkin where your crosshair is pointed. You may only place the pumpkin within a certain distance from your person on a suitable surface.</p>
+<img src="itemdesc/pumpkin.png">
