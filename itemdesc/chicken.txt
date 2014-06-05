@@ -2,5 +2,6 @@
 <p>Using this item will throw a chicken towards where your crosshair is pointed. Similar to the mechanics of grenade throws, the player's velocity affects how the chicken will fly.</p>
 <p>Throwing a chicken at one of your existing chickens or a teammate's chicken will cause one of them to absorb the other and grow in size. Doing the same to an enemy chicken will shrink it.</p>
 <p>Standing too close to a surface or object you are looking at while throwing a chicken may result in the chicken getting stuck.</p>
-<p>It is not possible to directly damage your own chickens, but grenades will work.</p>
+<p>It is not possible to directly damage your own chickens with a gun or knife. This restriction does not apply to chickens belonging to other players.</p>
+<p>When a chicken has an inflated size, its hitboxes will still be the size of a normal chicken, so if you want to kill one, aim for its base.</p>
 <img src="itemdesc/chicken.png">
