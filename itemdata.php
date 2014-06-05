@@ -9,7 +9,7 @@ LoadItemData();
 function LoadItemData() {
 	$sql =GetSQL();
 	global $item_data2;
-	$result = $sql->safequery( "SELECT * FROM ITEMINFO" );
+	$result = $sql->safequery( "SELECT * FROM ITEMINFO ORDER BY DISPLAYINDEX" );
 	if( !$result ) die();
 	
 	while( $a = $result->fetch_array() ) {
