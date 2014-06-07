@@ -78,7 +78,7 @@ if( $_SESSION['loggedin'] != 1 ) {
 	echo '<hr>';
 	echo '<p>You can buy stuff here with your CASH. Earn CASH by playing in RXG servers and picking it up!</p>';
 	
-	echo '<p>Click on an item picture to read more about it.</p>';
+	echo '<p>Click on an item to read more about it.</p>';
 	
 	//echo '<p>DEBUG FEATURE: purchase items with paypal account gaben@gmail.com password gabenewell</p>';
 	try {
@@ -93,7 +93,7 @@ if( $_SESSION['loggedin'] != 1 ) {
 			$stock = isset($item_stock[$item['id']])?$item_stock[$item['id']]:0;
 			echo '<tr>';
 			echo '<td class="image"><img src="'.$item['usage'].'.png" onclick="showitem(' .$item['id'] .')"></td>';
-			echo '<td class="desc">'.$item['name'].' '.ItemStockString($stock).'</td>';
+			echo '<td class="desc" onclick="showitem(' .$item['id'] .')">'.$item['name'].' '.ItemStockString($stock).'</td>';
 			echo '<td class="prices">'.ItemPrice($item).'</td>';
 			
 			if( $stock ) {

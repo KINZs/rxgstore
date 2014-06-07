@@ -329,6 +329,7 @@ table.buylist td {
 }
 table.buylist td.desc {
 	min-width: 300px;
+	cursor: help;
 }
 
 table.buylist td.prices {
