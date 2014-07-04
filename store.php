@@ -74,11 +74,11 @@ if( $_SESSION['loggedin'] != 1 ) {
 	
 	echo '</p>';
 	echo '<p style="font-size:24px">CASH: '.FormatPrice(GetStoreCredit($_SESSION['accountid']),true).'</p>';
-	//echo '<form action="addfunds.php"><input type="submit" value="Add Funds"></form>';
+	echo '<form action="addfunds.php"><input type="submit" value="Add Funds"></form>';
 	echo '<hr>';
 	echo '<p>You can buy stuff here with your CASH. Earn CASH by playing in RXG servers and picking it up!</p>';
 	
-	echo '<p>Click on an item to read more about it.</p>';
+	echo '<p>Click on an item to read more about it. Some items are only usable in specific games so make sure you look at the item info before buying something.</p>';
 	
 	//echo '<p>DEBUG FEATURE: purchase items with paypal account gaben@gmail.com password gabenewell</p>';
 	try {

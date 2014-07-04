@@ -76,7 +76,7 @@ class Transaction {
 	private function CacheItemData() {
 		global $item_data2;
 		foreach( $this->items->items as &$item ) {
-			echo '<br>';echo '<br>';
+			//echo '<br>';echo '<br>'; //wtf is this doing here
 			$item->price = $item_data2[$item->id]['price'];	
 			$item->name = $item_data2[$item->id]['usage'];
 		}

@@ -32,6 +32,11 @@ input  {
 	font-weight: inherit;
 	padding:2px;
 }
+input[type="text"] {
+	background:#fff;
+	border:1px solid rgba(0, 0, 0, 0.2);
+}
+
 
 textarea {
 	font-family:inherit;

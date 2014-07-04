@@ -48,7 +48,7 @@ $position=0;
 foreach( $list as $a ) {
 	$id =  $a['STEAM'] ;
 	$position++;
-	echo '<tr'.($position <= 10 ?' class="topcash_top10"':'').'><td class="topcash_position">'.$position.'</td><td class="topcash_avatar"><img src="'.$av[$id].'"</td><td>&nbsp;<a href="http://steamcommunity.com/profiles/'.$id.'">'.$names[$id].'</a></td><td>&nbsp;' . FormatPrice($a['SUMTOTAL'],true) . '</td></tr>';
+	echo '<tr'.($position <= 10 ?' class="topcash_top10"':'').'><td class="topcash_position">'.$position.'</td><td class="topcash_avatar"><img src="'.$av[$id].'"></td><td>&nbsp;<a href="http://steamcommunity.com/profiles/'.$id.'">'.$names[$id].'</a></td><td>&nbsp;' . FormatPrice($a['SUMTOTAL'],true) . '</td></tr>';
 }
 echo '</table>';
 
