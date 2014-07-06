@@ -1,0 +1,22 @@
+.recent_heading {
+	background:#ccc;
+	height:32px;
+	margin-top:20px;
+	padding:5px;
+}
+
+.recent_subheading {
+	font-size:24px;
+	padding-left:5px;
+	vertical-align:top;
+}
+
+.recent_subheading a {
+	text-decoration:none;
+}
+
+.recent_date {
+	float:right;
+	font-size:16px;
+	padding: 5px 0;
+}

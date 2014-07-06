@@ -28,6 +28,7 @@ PrintHeader( 'RXG Center','none' );
 ?>
 
 <a style="text-decoration:none" href="store.php"><div class="business">Store</div></a><br>
+<a style="text-decoration:none" href="recentpurchases.php"><div class="business">Recent Purchases</div></a><br>
 <a style="text-decoration:none" href="usingitems.php"><div class="business">How To Use Items</div></a><br>
 <a style="text-decoration:none" href="bbs.php"><div class="business">Bulletin Board</div></a><br>
 <a style="text-decoration:none" href="topcash.php"><div class="business">Biggest Spenders</div></a><br>

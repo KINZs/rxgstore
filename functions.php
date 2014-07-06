@@ -888,6 +888,30 @@ function ClearPaymentCache() {
 }
 
 
+function GetRelativeTime( $time ) {
+	$a = time() - $time;
+	$unit=0;
+	if( $a < 60 ) { // 0-59 seconds
+		$unit = $a == 1 ? "second":"seconds";
+	} else if( $a < (60*60) ) { // 1-59 minutes
+		$a = round($a / 60);
+		$unit = $a == 1 ? "minute":"minutes";
+	} else if( $a < (60*60*48) ) { // 1-47 hours
+		$a = round($a/(60*60));
+		$unit = $a == 1 ? "hour":"hours";
+	} else if( $a < (60*60*24*90)) { // 2-90 days
+		$a = round($a/(60*60*24));
+		$unit = $a == 1 ? "day":"days";
+	} else { // months
+		$a = round($a/(60*60*24*30.4368));
+		$unit = $a == 1 ? "month":"months";
+	}
+	
+	return "$a $unit ago";
+}
+
+
+
 function PrintOutReceipt( $x ) {
 	echo '<div class="receipt_container">';
 		echo '<div class="receipt_top"></div>';
