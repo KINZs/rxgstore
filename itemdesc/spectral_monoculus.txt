@@ -1,3 +1,4 @@
 <p>This is the spectral version of MONOCULUS.</p>
-<p>Using this item will spawn a spectral version of MONOCULUS where your crosshair is pointed. Lasting for 20 seconds, he will attack your enemies with rapid-fire rockets and cannot be killed. You may only place him within a certain distance from yourself on a suitable surface.</p>
+<p>Using this item will spawn a spectral version of MONOCULUS where your crosshair is pointed. Lasting for 20 seconds, he cannot be killed and will attack your enemies with rapid-fire rockets, crediting you with all kills. You may only spawn him within a certain distance from yourself on a suitable surface.</p>
+<p>Unlike the boss version, this one is friendly to your team and will only attack enemies.</p>
 <img src="itemdesc/spectral_monoculus.png">

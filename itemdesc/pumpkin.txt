@@ -1,3 +1,6 @@
-<p>These volatile hazards explode when damaged.</p>
+<p>These volatile hazards explode when damaged, crediting you with all kills.</p>
 <p>Using this item will place an exploding pumpkin where your crosshair is pointed. You may only place the pumpkin within a certain distance from yourself on a suitable surface.</p>
+<p>Pumpkins take a few seconds to activate, allowing enemies to steer clear of the area before they can explode. Because of this, they are best suited for ambushes such as around corners.</p>
+<p>The explosions caused by your own pumpkins will not hurt your teammates, but they will hurt you.</p>
+<p>You may not have more than 10 pumpkins planted at once. Your existing pumpkins must first explode before you can plant more.</p>
 <img src="itemdesc/pumpkin.png">
