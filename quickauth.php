@@ -30,17 +30,17 @@ TryAuth();
 function TryAuth( $forceLogin = true ) {
 	
 	$sql = GetSQL();
-	$id = $sql->real_escape_string( $_GET['id'] );
+	$id = (int)$_GET['id'];
 	
 	if( $forceLogin ) {
-		$token = $sql->real_escape_string( $_GET['token'] );
-		$result = $sql->safequery( "SELECT ACCOUNT FROM QUICKAUTH WHERE ID = $id AND TOKEN = $token" );
+		$token = (int)$_GET['token'];
+		$result = $sql->safequery( "SELECT ACCOUNT FROM QUICKAUTH WHERE ID = '$id' AND TOKEN = '$token'" );
 		$row = $result->fetch_array();
 		$account = (int)$row[0];
 		LogInUser( SteamID64FromAccountID($account) );
 	}
 	
-	$sql->safequery( "DELETE FROM QUICKAUTH WHERE ID = $id" );
+	$sql->safequery( "DELETE FROM QUICKAUTH WHERE ID = '$id'" );
 	RedirectUser( "index.php" );
 }
 
