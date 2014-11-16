@@ -1,0 +1,6 @@
+<p>When using this item you are presented with a list of songs that are currently loaded by the server. </p>
+<p>The server chooses a selection of songs randomly whenever it restarts. </p>
+<p>When you select a song, this item will be removed from your inventory and placed in front of you featuring the song you selected.</p>
+<img src="itemdesc/radio1.jpg"> <img src="itemdesc/radio2.jpg"><br>
+<p>Usable on CSGO casual servers</p>
+<i>"Turn down for what?"</i>

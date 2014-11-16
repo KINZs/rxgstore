@@ -1,4 +1,4 @@
-<p>These delectable items can be eaten to gain 35% health (85% in TF2).</p>
+<p>These delectable items can be eaten to gain 20% health (85% in TF2).</p>
 <p>Upon use, your person will throw a cookie a short distance in front of himself, which then can be eaten by you, a friend, or anyone else who presses E on it.</p>
 <img src="itemdesc/cookies.jpg"><br> 
 <i>"Mmm... delicious"</i>

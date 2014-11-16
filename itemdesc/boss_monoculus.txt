@@ -1,5 +1,5 @@
 <p>The missing eye of the Red Demoman.</p>
-<p>Using this item will spawn MONOCULUS where your crosshair is pointed. Siding with no one, he is a terrifying boss that will shoot rockets from his giant eyeball at all players in sight. You may only spawn the boss within a certain distance from yourself on a suitable surface.</p>
-<p>MONOCULUS will disappear after 3 minutes or sooner if killed.</p>
-<p>Unlike the spectral version, this one will attack your teammates and even you.</p>
+<p>Using this item will spawn MONOCULUS where your crosshair is pointed. Siding with no one, he is a terrifying boss that will shoot rockets from his giant eyeball at all players in sight, crediting you with all kills. You may only spawn the boss within a certain distance from yourself on a suitable surface.</p>
+<p>MONOCULUS will disappear after about 2 minutes or sooner if killed.</p>
+<p>Unlike the spectral version, this one will attack your teammates and even you, but it will deal less damage to the player who spawned it.</p>
 <img src="itemdesc/boss_monoculus.jpg">
